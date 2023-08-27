@@ -20,7 +20,7 @@ Imagine the following directory:
   /b2c
 ```
 
-Using `rgxdir '^([0-9]{4})-([0-9]{2})-([0-9]{2}).*$' /path/to/dir/test` will result in the following directory structure:
+Using `rgxdir '^([a-z])([0-9]).$' /path/to/dir/test` will result in the following directory structure:
 ```
 /test
   /a
